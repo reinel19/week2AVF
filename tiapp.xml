@@ -6,7 +6,7 @@
     <property name="acs-oauth-secret-development" type="string">pFKi6xVK5fx3uBJBZGOgoPGqFJE68Ggp</property>
     <property name="acs-oauth-key-development" type="string">HwATD086yl2WPtl3kfYbv62nyylrYvxr</property>
     <property name="acs-api-key-development" type="string">s7xTa14d6gZbPTAG3gYTsaVOyVGxCduC</property>
-    <id>com.fullsaildataSync.edu</id>
+    <id>com.fullsail.demoApp</id>
     <name>dataSync</name>
     <version>1.0</version>
     <publisher>Sador</publisher>

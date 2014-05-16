@@ -1,8 +1,8 @@
-#appname: dataSync
-#publisher: Sador
-#url: http://
-#image: appicon.png
-#appid: com.fullsaildataSync.edu
-#desc: undefined
-#type: ipad
-#guid: c1a392dd-ad58-47b8-ab20-156475df992c
+#appname:dataSync
+#publisher:Sador
+#url:http://
+#image:appicon.png
+#appid:com.fullsail.demoApp
+#desc:not specified
+#type:ipad
+#guid:c1a392dd-ad58-47b8-ab20-156475df992c

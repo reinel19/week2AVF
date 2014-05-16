@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+iosLaunchConfigurationAttributes/ATTR_MINIFY=true
+iosLaunchConfigurationAttributes/ATTR_PROJECT_NAME=dataSync
+iosLaunchConfigurationAttributes/appid=com.fullsail.demoApp
+iosLaunchConfigurationAttributes/certificate=Jennifer McCarrick (VET4496F2Z)
+iosLaunchConfigurationAttributes/keychain=
+iosLaunchConfigurationAttributes/sdk_version=7.1
+iosLaunchConfigurationAttributes/uuid=E02EB386-FDC8-44FC-A347-B8392F8DFB42
+provisioning_profiles/development/ADC86C9D-1003-4078-AFF4-12C059A1594E/appid=com.fullsail.demoApp
+provisioning_profiles/development/ADC86C9D-1003-4078-AFF4-12C059A1594E/name=demoApp
+provisioning_profiles/development/ADC86C9D-1003-4078-AFF4-12C059A1594E/uuid=ADC86C9D-1003-4078-AFF4-12C059A1594E
+provisioning_profiles/development/E02EB386-FDC8-44FC-A347-B8392F8DFB42/appid=com.fullsail.demoApp
+provisioning_profiles/development/E02EB386-FDC8-44FC-A347-B8392F8DFB42/name=demoApp
+provisioning_profiles/development/E02EB386-FDC8-44FC-A347-B8392F8DFB42/uuid=E02EB386-FDC8-44FC-A347-B8392F8DFB42

@@ -128,6 +128,50 @@ var remoteResponse = function() {
 	
 });
     	
+var takePicBtn = Ti.UI.createButton({
+	title : 'Camera',
+	backgroundColor: "#999",
+	top: 10,
+	width: 250,
+	height: 50
+});
+
+// Listen for click events.
+// takePicBtn.addEventListener('click', function() {
+	// alert('\'\' was clicked!');
+// });
+
+// Add to the parent view.
+win1.add(takePicBtn);
+
+takePicBtn.addEventListener('click', function(e){
+	Ti.Media.showCamera({
+		saveToPhotoGallery: true,
+		allowEditing: true,
+		mediaTypes: [Ti.Media.MEDIA_TYPE_VIDEO,Ti.Media.MEDIA_TYPE_PHOTO],
+		success: function(e) {
+	 		if(e.mediaType == Ti.Media.MEDIA_TYPE_PHOTO) {
+				var img = Ti.UI.createImageView({
+					width: win.width,
+					height: win.height,
+					image: e.media
+				});
+				win.add(img);
+			} else {
+				alert("thought this was a photo but, it's:" + e.mediaType);
+			}
+		},
+		error: function(error) {
+			if (error.code == Ti.Media.NO_CAMERA) {
+				alert("please run this on a device");
+			} else {
+				alert("other error: " + error.code);
+			}
+		}
+	});
+});
+
+		
 win1.add(dataView);
 win1.add(dataView1);
 
@@ -160,6 +204,7 @@ var editWindow = Ti.UI.createWindow({
 
 var cancelButton = Ti.UI.createButton({
 	title: "Cancel",
+	top: 50,
 	height: 100,
 	width: 100
 });

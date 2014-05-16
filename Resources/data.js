@@ -9,5 +9,5 @@ var tab2 = Titanium.UI.createTab({
 });
 
 win2.add(tableView);
-
+exports.win2 = win2;
 tabGroup.addTab(tab2);  
